@@ -1,0 +1,28 @@
+# 虚拟环境（本机 180MB，别人 clone 后自己建）
+.venv/
+venv/
+env/
+
+# 运行时产物：手机截图含个人聊天与账号画面，不入库
+shots/
+*.png
+*.jpg
+
+# 个人学习数据
+words/
+
+# 历史遗留的微信窗口脚本（含本机路径，仅本地保留）
+legacy/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
